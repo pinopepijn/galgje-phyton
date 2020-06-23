@@ -5,4 +5,7 @@ print('Hoi, %s.' % name)
 print("Het is de bedoeling dat je alle leters goed raad om een woord te vormen.")
 print ("Je hebt wel maar een paar kansen om de letters te raden.")
 
-woorden = ["mango", "vuurtoren", "dorp", "bosbes", "plaats", "haai"]
+import random 
+words = ["mango", "vuurtoren", "muziek", "bosbes", "plaats", "telefoon", "statief"]
+picked = random.choice(words)
+print (picked)
