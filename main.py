@@ -78,3 +78,4 @@ while turns > 0:
             print()
 
             print('Helaas', name, 'je hebt verloren, het woord was:', words)
+
