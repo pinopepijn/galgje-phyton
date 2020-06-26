@@ -1,10 +1,12 @@
 print("Hallo, welkom bij galgje")
-
+print ()
 name = input('Wat is je naam?\n')
+print()
 print('Hoi, %s.' % name)
-print(
-    "Het is de bedoeling dat je alle leters goed raad om een woord te vormen.")
+print()
+print( "Het is de bedoeling dat je alle leters goed raad om een woord te vormen.")
 print("Je hebt maar een paar kansen om de letters te raden.")
+print()
 
 import random
 words = [
@@ -39,6 +41,7 @@ while turns > 0:
             letters_not_guesed += 1
 
     print('Woord:', toonwoord, '. Al gegokte letters:', guesses)
+    print()
     print()
 
     if letters_not_guesed == 0:
@@ -75,5 +78,3 @@ while turns > 0:
             print()
 
             print('Helaas', name, 'je hebt verloren, het woord was:', words)
-
-
