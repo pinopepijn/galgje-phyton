@@ -45,6 +45,18 @@ while turns > 0:
 
     print ('Woord:',toonwoord, '. Al gegokte letters:', guesses)
     print () 
+    
+    if guess not in woord:  
+ 
+        turns -= 1        
+
+        galgregel=turns
+        nr_of_to_print_lines=(10-turns)
+        while nr_of_to_print_lines>0:
+          print (galg[galgregel])
+          galgregel +=1 
+          nr_of_to_print_lines -=1
+        print ("")
 
 print ('Helaas, dat is niet goed')
  
