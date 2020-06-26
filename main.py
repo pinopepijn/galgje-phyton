@@ -46,6 +46,15 @@ while turns > 0:
     print ('Woord:',toonwoord, '. Al gegokte letters:', guesses)
     print () 
     
+    
+        break              
+
+    print
+
+    guess = input ('Raad een letter: ') 
+
+    guesses += guess    
+    
     if guess not in woord:  
  
         turns -= 1        
