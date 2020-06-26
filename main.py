@@ -46,6 +46,12 @@ while turns > 0:
     print ('Woord:',toonwoord, '. Al gegokte letters:', guesses)
     print () 
     
+     if letters_not_guesed == 0:
+        print ()
+        print ('...')
+        #wait for 1 second
+        time.sleep(1)        
+        print ('Hoera,', naam, 'Je hebt gewonnen')
     
         break              
 
