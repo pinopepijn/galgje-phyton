@@ -47,7 +47,7 @@ while turns > 0:
     if letters_not_guesed == 0:
         print()
 
-        print('Hoera,', name, 'hebt gewonnen')
+        print('Hoera,', name, ',je hebt gewonnen')
 
         break
 
