@@ -26,3 +26,18 @@ guesses = ''
 
 turns = 10
 
+while turns > 0:         
+
+    letters_not_guesed = 0             
+    toonwoord=''
+
+print ('Helaas, dat is niet goed')
+ 
+        print (name, 'je hebt nog', + turns, 'kansen') 
+
+        if turns == 0:           
+    
+            print ()
+ 
+            print ('Helaas', name, 'je hebt verloren, het woord was:', woord)
+
