@@ -8,11 +8,21 @@ print ("Je hebt maar een paar kansen om de letters te raden.")
 import random 
 words = ["mango", "vuurtoren", "muziek", "bosbes", "plaats", "telefoon", "statief"]
 picked = random.choice(words)
-print (picked)
+galg = [
+  "  ---------",
+  "  |       |",
+  "  |       O",
+  "  |       |",
+  "  |     --+--",
+  "  |       |",
+  "  |      / \\",
+  "  |",
+  "  |",
+  "------"
+]
+
 
 guesses = ''
 
 turns = 10
-
-
 
